@@ -2,7 +2,6 @@ package sample;
 
 import java.awt.*;
 public class RegularPolygon extends Polygon {
-    int x,y;
     public RegularPolygon(int x0, int y0, int radius, int sides) {
         double alpha = 2 * Math.PI / sides;
         for (int i = 0; i < sides; i++) {
